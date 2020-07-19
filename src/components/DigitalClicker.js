@@ -17,8 +17,8 @@ class DigitalClicker extends React.Component {
   render(){
     return (
       <div>
-      <button onClick ={}>click me </button>
-      <p>I have been clicked {} times</p>
+      <button onClick ={this.hasBeenClick}>click me </button>
+      <p>I have been clicked {this.state.clicked} times</p>
       </div>
     )
   }
