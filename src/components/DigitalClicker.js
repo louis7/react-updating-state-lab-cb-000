@@ -21,7 +21,6 @@ class DigitalClicker extends React.Component {
     return (
       <div>
       <button onClick ={this.hasBeenClick}>{this.state.timesClicked} </button>
-      <p>I have been clicked {this.state.timesClicked} times</p>
       </div>
     )
   }
