@@ -9,9 +9,12 @@ class DigitalClicker extends React.Component {
     }
   }
   hasBeenClick = ()=> {
-    this.setState (){
-
-    }
+    
+    this.setState ( previousState =>{
+      return{
+        clicked: previousState++
+      }
+    })
 
   }
   render(){
